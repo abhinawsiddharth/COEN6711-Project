@@ -131,7 +131,7 @@ void send_sms_message(const char *alert_type, float temperature, int smoke_level
     // Upload the image to a file hosting service (here using imgur as an example)
     char upload_command[2048];
     snprintf(upload_command, sizeof(upload_command),
-             "curl -s -F 'image=@%s' -H 'Authorization: Client-ID c092c79891b9605' https://api.imgur.com/3/image | jq -r '.data.link'", IMAGE_PATH);
+             "curl -s -F 'image=@%s' -H 'Authorization: Client-ID c092c345325f22234b75456' https://api.imgur.com/3/image | jq -r '.data.link'", IMAGE_PATH);
 
     printf("Upload command: %s\n", upload_command);
 
