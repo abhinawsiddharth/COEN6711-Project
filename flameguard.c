@@ -21,8 +21,8 @@
 #define DS18B20_SENSOR_PATH "/sys/bus/w1/devices/"
 #define IMAGE_PATH "/home/pi/captured_image.jpg"  
 
-const char *account_sid = "ACbc4bsdfhgst5styre5a3";
-const char *auth_token = "473c9114sgrg3453gfsdgst3f3f364";
+const char *account_sid = "ACbcdfs43ffffwsrwr3t5styre5a3";
+const char *auth_token = "473c9114ssffd43ffs234f3f364";
 const char *from_phone_number = "+12562977125";
 const char *to_phone_number = "+14382473887";
 const char *address = "124 St Lumen Colorado Canada J9K 3G8";
